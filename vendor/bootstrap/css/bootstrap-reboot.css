@@ -58,7 +58,7 @@ abbr[data-original-title] {
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-  cursor: help;
+  /* cursor: help; */
   border-bottom: 0;
   -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
@@ -240,9 +240,9 @@ button,
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled) {
-  cursor: pointer;
-}
+[type="submit"]:not(:disabled) 
+  /* cursor: pointer; */
+
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -318,7 +318,7 @@ output {
 
 summary {
   display: list-item;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 template {
