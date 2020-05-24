@@ -12,10 +12,6 @@
   padding-top: 54px;
   color: #c8cfd6;
   background-color: #1b504b !important;
-<<<<<<< HEAD
-
-=======
->>>>>>> dev2
 }
 @media (min-width: 992px) {
   body {
@@ -74,21 +70,13 @@ p.lead {
   margin-right: 0;
 }
 .social-icons a:hover {
-<<<<<<< HEAD
-  background-color: #56b1bd;
-=======
   background-color: #21ac99;
->>>>>>> dev2
 }
 .dev-icons {
   font-size: 3rem;
 }
 .dev-icons .list-inline-item i:hover {
-<<<<<<< HEAD
-  color: #56b1bd;
-=======
   color: #21ac99;
->>>>>>> dev2
 }
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
@@ -96,11 +84,7 @@ p.lead {
   text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
-<<<<<<< HEAD
-  outline-color: #d48a6e;
-=======
   outline-color: #21ac99;
->>>>>>> dev2
 }
 @media (min-width: 992px) {
   #sideNav {
@@ -121,11 +105,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-<<<<<<< HEAD
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-=======
     border: 0.5rem solid rgba(255, 255, 255, 0.65);
->>>>>>> dev2
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -174,18 +154,10 @@ section.resume-section .resume-item .resume-date {
   color: #c8cfd6 !important;
 }
 a {
-<<<<<<< HEAD
-  color: #197e74;
-=======
   color: #0a998b;
->>>>>>> dev2
 }
 a:active,
 a:focus,
 a:hover {
-<<<<<<< HEAD
-  color: #347f77;
-=======
   color: #21ac99;
->>>>>>> dev2
 }
