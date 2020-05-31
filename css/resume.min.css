@@ -86,7 +86,7 @@ p.lead {
 #sideNav .navbar-toggler:focus {
   outline-color: #21ac99;
 }
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
   #sideNav {
     text-align: center;
     position: fixed;
@@ -103,8 +103,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 12rem;
+    max-height: 12rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.65);
   }
   #sideNav .navbar-collapse {
