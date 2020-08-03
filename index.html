@@ -20,6 +20,14 @@
 
 <body id="page-top">
 
+ 
+<div class="header">
+  
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Sefat Anam</span>
@@ -27,8 +35,7 @@
         <img class="img-fluid img-profile rounded-circle mx-auto mb-4" src="img/SefatAnam.webp" alt="Sefat Anam">
       </span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -214,7 +221,7 @@
             <img src="img/blazor.webp" style="height:60px;width:60px" />
 
           </li>
-         
+
           <li class="list-inline-item">
 
             <img src="img/aspnetmvc.webp" style="height:70px;width:120px" />
@@ -282,7 +289,7 @@
             <img src="img/html.webp" style="height:70px;width:70px" />
 
           </li>
-  
+
           <li class="list-inline-item">
 
             <img src="img/python.webp" style="height:70px;width:70px" />
@@ -358,11 +365,9 @@
 
         <p class="mb-0">At free time I like to travel, photography and spent time with friends.Recently I start to
           making
-          video about C# in YouTube channel name <a
-            href="https://www.youtube.com/channel/UCwobkKJHaYyhwbNxQxnqFvg">BeyondTheDev</a>
+          video about C# in YouTube channel name <a href="https://www.youtube.com/channel/UCwobkKJHaYyhwbNxQxnqFvg">BeyondTheDev</a>
           and sometime writes in Medium from my experience, you can check it on here -
-          <a
-            href="https://medium.com/@sefatanam/solve-python-import-class-problem-like-speech-recognition-pyaudio-opencv-etc-in-vs-code-in-1min-f8b0709831f1">Medium
+          <a href="https://medium.com/@sefatanam/solve-python-import-class-problem-like-speech-recognition-pyaudio-opencv-etc-in-vs-code-in-1min-f8b0709831f1">Medium
             profile</a>. </p>
       </div>
     </section>
@@ -382,7 +387,7 @@
           <li>Participated in Workshop on IoT using NodeMCU, ADUST, July 2019.</li>
           <li>Participated in Google Cloud DevFest'19 Bangladesh at Daffodil International University (HACKTHECODE
             Contest-01 Winner), October 25,2019.</li>
-            <li>Participated in National Collegiate Programming Contest-2020, Military Institue of Science & Technologu (MIST).</li>
+          <li>Participated in National Collegiate Programming Contest-2020, Military Institue of Science & Technologu (MIST).</li>
         </ul>
       </div>
     </section>
@@ -437,8 +442,8 @@
             <div class="subheading mb-3">Covid Statistics Tracker App (For Bangladesh)</div>
             <p>Technology Stack: Asp.net Core 3.1, Razor Pages, Blazor (Blazor Components Used - Radzen)</p>
             <p>
-             Phase 1 : Release in May 2020<br/>
-             Preview on : <a href="https://sefatanam.github.io/covidApp_host/"> Click Here</a>
+              Phase 1 : Release in May 2020<br />
+              Preview on : <a href="https://sefatanam.github.io/covidApp_host/"> Click Here</a>
             </p>
             <ul>
               <li>Can watch every day total affected statistics of Bangladesh</li>
@@ -604,6 +609,8 @@
     </section>
 
   </div>
+
+
   <!-- <script>
     document.getElementById("back").style.backgroundImage = "url('img/1_PEp5QTMzvEDth1nQqfMmbQ.jpeg')";
   </script> -->
@@ -614,6 +621,18 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+
 </body>
 
 </html>
