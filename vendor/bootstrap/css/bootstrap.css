@@ -88,7 +88,7 @@ abbr[data-original-title] {
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-  /* cursor: help; */
+  cursor: help;
   border-bottom: 0;
   -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
@@ -270,10 +270,9 @@ button,
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled)
- /* {
+[type="submit"]:not(:disabled) {
   cursor: pointer;
-} */
+}
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -349,7 +348,7 @@ output {
 
 summary {
   display: list-item;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 template {
@@ -3967,7 +3966,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: 0.5rem;
   color: transparent;
-  /* cursor: pointer; */
+  cursor: pointer;
   background-color: #dee2e6;
   border-color: transparent;
   border-radius: 1rem;
@@ -4000,7 +3999,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: 0.5rem;
   color: transparent;
-  /* cursor: pointer; */
+  cursor: pointer;
   background-color: transparent;
   border-color: transparent;
   border-width: 0.5rem;
@@ -4021,17 +4020,17 @@ input[type="button"].btn-block {
   background-color: #adb5bd;
 }
 
-/* .custom-range:disabled::-webkit-slider-runnable-track {
-   cursor: default; 
-} */
+.custom-range:disabled::-webkit-slider-runnable-track {
+  cursor: default;
+}
 
 .custom-range:disabled::-moz-range-thumb {
   background-color: #adb5bd;
 }
 
-/* .custom-range:disabled::-moz-range-track {
-  /* cursor: default; 
-} */
+.custom-range:disabled::-moz-range-track {
+  cursor: default;
+}
 
 .custom-range:disabled::-ms-thumb {
   background-color: #adb5bd;
@@ -4073,7 +4072,7 @@ input[type="button"].btn-block {
 .nav-link.disabled {
   color: #6c757d;
   pointer-events: none;
-  /* cursor: default; */
+  cursor: default;
 }
 
 .nav-tabs {
@@ -4889,7 +4888,7 @@ input[type="button"].btn-block {
 .page-item.disabled .page-link {
   color: #6c757d;
   pointer-events: none;
-  /* cursor: auto; */
+  cursor: auto;
   background-color: #fff;
   border-color: #dee2e6;
 }
@@ -6384,7 +6383,7 @@ a.close.disabled {
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
-  /* cursor: pointer; */
+  cursor: pointer;
   background-color: #fff;
   background-clip: padding-box;
   border-top: 10px solid transparent;
