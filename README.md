@@ -1,6 +1,3 @@
 # My Portfolio website
  
- Here Two Pages : 
- 
- ![Screenshot_8](https://user-images.githubusercontent.com/37630292/78393836-638b9a80-760c-11ea-85d7-2be01596dbab.jpg) <hr/>
- ![Screenshot_10](https://user-images.githubusercontent.com/37630292/78393868-71412000-760c-11ea-8832-f19a5dba7591.jpg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/361461ad-a962-48da-a7a0-df14722a1d01/deploy-status)](https://app.netlify.com/sites/sefatanam/deploys)
