@@ -1,3 +1,5 @@
+@import "_variables";
+
 #sideNav {
   .navbar-nav .nav-item .nav-link {
     font-weight: 800;
@@ -9,6 +11,10 @@
       outline-color: lighten($primary, 15%);
     }
   }
+}
+
+.nav-link a:active {
+  border: 1px solid white;
 }
 
 @media (min-width: 992px) {

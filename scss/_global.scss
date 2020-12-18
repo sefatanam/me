@@ -1,3 +1,5 @@
+@import "_variables";
+
 // Global styling for this template
 .progress-container {
   width: 100%;
@@ -8,7 +10,7 @@
 
 .progress-bar {
   height: 4px;
-  background: #29c986;
+  background: $gray-700;
   width: 0%;
 }
 
@@ -23,20 +25,20 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #29c986;
+  background: $white;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #29c986;
+  background: $white;
 }
 
 body {
   @include body-font;
   padding-top: 54px;
-  color: #c8cfd6;
-  background-color: #1b504b;
+  color: $white;
+  background-color: $my-dark-primary;
 }
 @media (min-width: 992px) {
   body {
@@ -80,6 +82,7 @@ p.lead {
   font-weight: 500;
   @include heading-font;
   font-size: 1.5rem;
+  letter-spacing: 2px;
 }
 
 .social-icons {
@@ -87,18 +90,23 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: #1b665e;
-    color: #fff !important;
+    background-color: black;
+    color: $white !important;
     border-radius: 100%;
     text-align: center;
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+    transition: background-color 200ms ease-in-out;
+    border: 2px solid rgb(255, 255, 255);
     &:last-child {
       margin-right: 0;
     }
     &:hover {
-      background-color: #21ac99;
+      background-color: rgb(206, 206, 206);
+      color: $my-dark-primary !important;
+      transition: background-color 200ms ease-in-out;
+      border: 2px solid rgb(0, 0, 0);
     }
   }
 }
@@ -112,9 +120,15 @@ p.lead {
   }
 }
 
-// .bg-primary {
-//   background-color: #18413d !important;
-// }
-// .text-primary {
-//   color: #c8cfd6 !important;
-// }
+.resume {
+  border: 2px solid white !important;
+  padding: 0 10px;
+  transition: background-color 200ms ease-in-out;
+}
+
+.resume:hover {
+  text-decoration: none !important;
+  background: rgb(206, 206, 206) !important;
+  color: black !important;
+  transition: background-color 200ms ease-in-out;
+}

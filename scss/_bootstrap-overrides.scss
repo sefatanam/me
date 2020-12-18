@@ -1,17 +1,19 @@
+@import "_variables";
+
 .bg-primary {
-  background-color: #18413d !important;
+  background-color: $my-dark-primary !important;
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $white !important;
 }
 
 a {
-  color: #219c8c;
+  color: $white;
 }
 a:active,
 a:focus,
 a:hover {
-  color: #21ac99;
+  color: $white !important;
   transition: 0.3s ease-in-out;
 }
